@@ -3,7 +3,7 @@
 
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML) [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS) [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) [![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
 
-[![Test Online](https://img.shields.io/badge/Test%20Online-Click%20Here-brightgreen?style=for-the-badge)]([https://bocaletto-luca.github.io/Earthquake-Eplorer/](https://bocaletto-luca.github.io/Earthquake-Explorer/))
+[![Test Online](https://img.shields.io/badge/Test%20Online-Click%20Here-brightgreen?style=for-the-badge)](https://bocaletto-luca.github.io/Earthquake-Explorer/)
 
 Earthquake Explorer is an interactive web application that lets you discover and monitor earthquake events from around the globe using a free API. The app retrieves up-to-date earthquake data—including essential details such as magnitude, location, depth, and time—and showcases the events on a responsive map interface. Built with modern web technologies, Earthquake Explorer ensures a smooth and engaging user experience on any device.
 
