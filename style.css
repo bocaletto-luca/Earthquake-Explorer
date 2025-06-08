@@ -1,0 +1,92 @@
+ /* Base: html, body, wrapper per far sì che il footer resti in fondo */
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    .wrapper {
+      min-height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    .content {
+      flex: 1;
+      padding: 20px;
+    }
+    /* Temi: Day e Night */
+    body.day {
+      background-color: #f8f9fa;
+      color: #212529;
+    }
+    body.night {
+      background-color: #212529;
+      color: #f8f9fa;
+    }
+    /* Header e Footer */
+    header, footer {
+      background-color: #333;
+      color: #fff;
+      padding: 15px;
+      text-align: center;
+    }
+    /* Container principale */
+    .container-main {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 15px;
+    }
+    /* Controlli e pulsanti di ordinamento */
+    .controls {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .controls button {
+      margin: 0 5px;
+    }
+    /* Card degli eventi - Stile Day */
+    .quake-card {
+      margin-bottom: 20px;
+      padding: 15px;
+      background-color: #fff;
+      border: 1px solid #dee2e6;
+      border-radius: 0.25rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .quake-card h4 {
+      margin-bottom: 10px;
+    }
+    .quake-card p {
+      font-size: 0.95rem;
+    }
+    /* Stile Night per le card e la modale */
+    body.night .quake-card {
+      background-color: #343a40;
+      border: 1px solid #495057;
+      color: #f8f9fa;
+    }
+    body.night .modal-content {
+      background-color: #343a40;
+      color: #f8f9fa;
+    }
+    /* Grafico: dimensione fissa */
+    #chartContainer {
+      margin-bottom: 20px;
+      position: relative;
+      height: 300px;
+    }
+    /* Mappa: dimensione fissa */
+    #mapContainer {
+      margin-bottom: 20px;
+      height: 400px;
+    }
+    /* Footer */
+    footer {
+      font-size: 0.9rem;
+    }
+    @media (max-width: 576px) {
+  .controls button {
+    display: block;
+    width: 100%;
+    margin: 5px 0; /* Adjust spacing as needed */
+  }
+}
